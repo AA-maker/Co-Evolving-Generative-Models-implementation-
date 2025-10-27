@@ -1,0 +1,5 @@
+# filename: .gitignore
+data/
+venv/
+.env
+.env.*
