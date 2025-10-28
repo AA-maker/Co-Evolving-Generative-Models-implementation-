@@ -20,6 +20,6 @@ This repository implements the co-evolving text-image Gaussian system described 
 
 ## Notes and tips
 - For quick debugging lower `T_MACRO` in `src/config.py` to 200.
-- To reproduce toy experiments from the paper, set `K=5`, `PCA_DIM=2`, and generate synthetic Gaussians instead of reading data (I can provide a synthetic script).
+- To reproduce toy experiments from the paper, set `K=5`, `PCA_DIM=2`, and generate synthetic Gaussians instead of reading data.
 - The implementation uses PCA-reduced CLIP-like image embeddings, and clusters captions to discrete tokens, following the paper's discrete text + Gaussian image model mapping.
 
